@@ -1,5 +1,6 @@
 # Local files to ignore
 challenge_schema.sql
+Amazon_Review_datasets.txt
 
 
 # Byte-compiled / optimized / DLL files
