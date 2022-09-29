@@ -13,7 +13,7 @@ For this project I were supplied with and had access to approximately 50 dataset
 <br>
 <sub>Total Vine Reviews</sub>
 
-- As is shown in the example there were 334 total reviews done by Vine program personel.
+- As is shown in the example there were 334 total reviews done by Vine program personnel.
 
 <br>
 
@@ -21,7 +21,7 @@ For this project I were supplied with and had access to approximately 50 dataset
 <br>
 <sub>Total Non-Vine Reviews</sub>
 
-- In contrast, as is shown, there were 61,589 total reviews done by non-Vine program personal.
+- In contrast, as is shown, there were 61,589 total reviews done by non-Vine program personnel.
 
 <br>
 
@@ -57,11 +57,17 @@ For this project I were supplied with and had access to approximately 50 dataset
 <br>
 <sub>Percentage of Non-Vine Reviews</sub>
 
-- While the percentage of Non-Vine reviews that were 5-star is ~53%.
+- While the percentage of non-Vine reviews that were 5-star is ~53%.
 
 <br>
 <br>
 
 ## Summary:
 
-In your summary, state if there is any positivity bias for reviews in the Vine program. Use the results of your analysis to support your statement. Then, provide one additional analysis that you could do with the dataset to support your statement.
+Across the analysis a number of factors come into play when considering if there is any positivity bias for reviews in the Vine program. For this limited analysis the factors that were specifically taken into consideration were the sample sizes and how they compared to one another by 5-star rating. These numbers couldn't be immediately compared since the review numbers were vastly different. 61,589 (which is the number of unpaid reviews) obviously dwarfs the paid review number of 334, but when divided against their perspective 5-star review total this would produce a percentage. With this percentage you could compare the Vine and Non-Vine percentages on even ground to compare and check for possible positivity bias.
+
+Utilizing Pyspark further, the total of the Vine reviews that were 5-star came out to 139 reviews, and for the non-Vine reviews: 32,660. These numbers where then broken down to the percentages of how many 5-star reviews were out of the total of reviews. The Vine reviews came out to roughly that 42% were 5-star and the non-Vine reviews to roughly 53% that were 5-star.
+
+From a very cursory standpoint the biggest observation is that for this dataset the non-Vine reviewers were actually more likely to be experiencing a form of positivity bias versus their Vine counterparts. While this really has no grounds to support this, since the percentages are both so close to one another and barely hovering around 50%, it is just barely shown that non-Vine members voted 5-stars on average more than the Vine members.
+
+Again, this is still incredibly hard to really even make that observation. To further this analysis, and possibly even get to more concrete results, a breakdown of the complete rating scale could be done, instead of just focusing on 5 stars. Positivity bias can be exemplified better if we compare all of the data, instead of just a piece of the data. For instance, maybe we'd find that Vine members seemed to vote very often in the 3-4 ranges, versus non-Vine members who were willing to vote 1 on something if necessary. Other considerations, such as sample sizes, and other metrics captured by the datasets could be used to make a more complete answer. In conclusion, while positivity bias was not discovered, the groundwork to find it was established.
