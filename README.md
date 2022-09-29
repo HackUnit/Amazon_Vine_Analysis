@@ -1,7 +1,7 @@
 # Amazon_Vine_Analysis
 
 ## Overview of the analysis:
-For this project you were supplied with and had access to approximately 50 datasets of Amazon.com reviews. Each dataset contained reviews of a specific product, which ranged across all of Amazon's product categories such as "Toys and Games", or "Home and Office". For this specific analysis the "Sports" category was chosen. PySpark was used to extract that specific dataset, transform it, connect to an AWS RDS instance, and load the transformed data into pgAdmin. Next, PySpark was used to determine if there is any bias toward favorable reviews from Vine members in the Sports dataset.
+For this project I were supplied with and had access to approximately 50 datasets of Amazon.com reviews. Each dataset contained reviews of a specific product category, which ranged across all of Amazon's product categories such as "Toys and Games", or "Home and Office". For this specific analysis the "Sports" category was chosen. PySpark was used to extract that specific dataset, transform it, connect to an AWS RDS instance, and load the transformed data into pgAdmin. Next, PySpark was used to determine if there is any bias toward favorable reviews from Vine members in the Sports dataset.
 
 <br>
 
@@ -45,7 +45,7 @@ For this project you were supplied with and had access to approximately 50 datas
 
 ### What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
 
-![Percentage of Vine Reviews](Percentage_Vine_reviews.png)
+![Percentage of Vine Reviews](Resources/Percentage_Vine_reviews.png)
 <br>
 <sub>Percentage of Vine Reviews</sub>
 
@@ -53,7 +53,7 @@ For this project you were supplied with and had access to approximately 50 datas
 
 <br>
 
-![Percentage of Non-Vine Reviews](Percentage_NonVine_reviews.png)
+![Percentage of Non-Vine Reviews](Resources/Percentage_NonVine_reviews.png)
 <br>
 <sub>Percentage of Non-Vine Reviews</sub>
 
