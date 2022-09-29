@@ -1,6 +1,7 @@
 # Local files to ignore
 challenge_schema.sql
 Amazon_Review_datasets.txt
+Amazon_Reviews_ETL_starter_code.ipynb
 
 
 # Byte-compiled / optimized / DLL files
