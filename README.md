@@ -2,7 +2,7 @@
 
 ## Overview of the analysis:
 For this project I was supplied with and had access to approximately 50 datasets of Amazon.com reviews. Each dataset contained reviews of a specific product category, which ranged across all of Amazon's product categories such as "Toys and Games", or "Home and Office". Using one of these datasets, I was tasked with finding out if there was any positivity bias in the Vine program regarding the reviews by its members.
-For this specific analysis the "Sports" category was chosen. PySpark was used to extract that specific dataset, transform it, connect to an AWS RDS database instance I created, and load the transformed data into pgAdmin. Next, PySpark was used to determine if there was any bias toward favorable reviews from Vine members in the Sports dataset versus their non-Vine counterparts.
+For this specific analysis the "Sports" category was chosen. In a Jupyter Notebook I used PySpark to extract the "Sports" dataset, transformed it, connected to an AWS RDS database instance I created, and loaded the transformed data into pgAdmin. Next, I again utilized another Jupyter Notebook and PySpark to determine if there was any bias toward favorable reviews from Vine members in the Sports dataset versus their non-Vine counterparts.
 
 
 ## Results:
